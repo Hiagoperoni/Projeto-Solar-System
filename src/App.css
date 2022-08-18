@@ -1,4 +1,94 @@
-header {
+body {
+  background-image: url('./images/background.png');
+  color: white;
   display: flex;
   justify-content: center;
+}
+
+/* stylelint-disable-next-line selector-max-specificity */
+#root {
+  width: 100%;
+}
+
+header {
+  color: white;
+  display: flex;
+  font-size: 1.5em;
+  justify-content: center;
+  text-shadow: 0 0 20px white;
+}
+
+.titulos {
+  color: white;
+  display: flex;
+  font-size: 1.5em;
+  justify-content: center;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  text-shadow: 0 0 20px white;
+}
+
+img {
+  height: 10%;
+}
+
+.planetas {
+  border: solid 2px white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.nomePlaneta {
+  font-size: 1.5em;
+  text-shadow: 0 0 10px white;
+}
+
+.cadaPlaneta {
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 12.4%;
+}
+
+.missoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cadaMissao {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 1%;
+  text-align: center;
+  width: 20%;
+}
+
+.nomeMissao {
+  font-size: 1.8em;
+  text-shadow: 0 0 20px white;
+}
+
+.anoMissao {
+  font-size: 1.3em;
+  text-shadow: 0 0 10px white;
+}
+
+.paisMissao {
+  font-size: 1.3em;
+  text-shadow: 0 0 10px white;
+}
+
+.destinoMissao {
+  font-size: 1.3em;
+  text-shadow: 0 0 20px white;
 }
